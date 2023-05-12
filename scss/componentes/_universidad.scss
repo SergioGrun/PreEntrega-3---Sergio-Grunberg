@@ -1,0 +1,27 @@
+.carrera{
+    font-family: 'Roboto', sans-serif;
+    color:whitesmoke;   
+    font-size: 40px;
+    padding: 10px;
+    margin: 5 px;
+    text-align: center;
+}
+
+.margenes_fotos{  
+    margin-top: 20px;   
+}
+
+.zoom{
+    transition:transform 2.5s;
+    &:hover{    transform: scale(1.5);
+    }
+    @media (max-width: 580px){
+        transition: none;
+        &:hover{
+            transform: none;
+        }
+        }
+
+                
+}
+  

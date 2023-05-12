@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav {
+    ul {
+      li {
+        a {
+          text-decoration: none;
+          color: black;
+          border: none;
+          &:hover {
+            background-color: lightgray;
+          }
+        }
+      }
+      
+    
+      display: map-get($flex_direccion ,mostrar);
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 4px;
+      margin-right: 12px;
+      align-items: flex-start;
+    }
+    
+    ul li {
+      list-style: none;
+      color: green;
+      padding: 5px;
+      font-weight: 600;
+    }
+    
+   
+  }
+  
+  .tamano-logo {
+    width: $tamano_80;
+    height: $tamano_80;
+  }
+  
+  .pepe {
+    color: black;
+    background-color: rgb(141, 165, 141);
+    padding: calc($tamano_15/3);
+  }
+  

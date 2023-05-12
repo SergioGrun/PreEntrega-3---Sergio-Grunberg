@@ -1,0 +1,424 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* tipografia */
+/*font-family: 'Nanum Gothic', sans-serif;/*
+/*font-family: 'Old Standard TT', serif;/*
+/*font-family: 'Roboto', sans-serif;/*
+/*font-family: 'Lato', sans-serif;/*
+/*font-family: 'Inter', sans-serif;/
+
+
+/* body */
+
+body {
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+  
+
+/* Clases del Header*/
+
+
+
+nav ul li a{
+    text-decoration: none;
+    color:black ;
+    border: none ;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    gap:40x;
+    margin-right: 12px;
+    align-items: start;
+}
+
+
+nav ul li {
+    list-style: none;
+    color: green;
+    padding: 5px;
+    font-weight:600;
+}
+
+.encabezado :hover{
+    background-color:lightgray;
+}
+.tamano-logo {
+    width: 80px;
+    height: 80px;
+   
+}
+.pepe{
+    color:black;
+    background-color:rgb(141, 165, 141);
+    padding: 5px;
+   
+ }
+
+
+header{
+    border-bottom: white 1px solid;
+}
+
+
+/* clases del index*/
+
+.encabezado_inicio{
+    font-family:cursive;
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+    color:whitesmoke;
+    margin: 150px 5px 50px 5px;
+}
+.margen_arriba{
+    margin-top: 150px;
+}
+
+
+@media (max-width: 580px) {
+    .margen_arriba{
+      margin-top: 30px;
+    }
+       }
+
+
+
+.nuestro_serv{
+    font-family:'Lucida Sans';
+    font-size: 25px;
+    bottom: 10px;
+    margin: 30px;
+    text-align: center;
+    padding: 15px;
+    color: whitesmoke;
+}
+
+.h3_tamano{
+    font-family:'Lucida Sans';
+    font-size: 18px;
+    margin: 30px;
+    color:whitesmoke;
+    margin:30px;
+    padding: 15px;
+}
+
+.margen_superior{
+    margin-top: 30px;
+}
+.mensaje{
+    font-family:'Lucida Sans';
+    font-size: 20px;
+    color:whitesmoke;
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}  
+
+
+.tipo_lista{
+    list-style: square;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:whitesmoke;
+    font-size: 14x;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.margen-index{
+    margin:10px;
+    
+
+}
+.margen-fotos{
+    margin:15px;
+}
+
+/* Hoja acerca de mi */
+
+ .acerca_2 {
+    font-family: 'Lato', sans-serif;
+    color:whitesmoke;
+    font-size: 40px;
+    padding:10px;
+    margin: 30px;
+    text-align: center;
+}
+.acerca_3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color:whitesmoke  ;
+    text-align: left;
+   margin-top: 20px;
+}
+
+.cont2{
+    overflow: hidden;
+    border-radius: 10% 50%;
+    box-shadow: 5px 8px 12px black  ;
+    margin: 10px;  
+    justify-content: center;
+    align-items: center;
+    margin: 5px
+}
+
+.margen_acerca{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ .frase{
+    font-family: cursive;
+    font-size: 25px;
+    margin: 5px;
+    text-align:left;
+    color: whitesmoke;
+}
+
+.mision{
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+.texto-mision{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+.margen-inferior{
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+
+.borde-bajo{
+    border-bottom: 0.20px solid black;
+}
+
+.margen-inferior2{
+    border-bottom: 1px solid black;
+}
+.centrar-mensaje{
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+
+
+/* clases del footer*/
+
+footer{
+    border-top: 1px solid white;
+}
+
+.derechos{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5;
+    font-size: 15px;
+    margin-top: 10px;
+}
+footer ul{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+
+/* Clases de Proyectos */
+
+   
+.parrafos_descr{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px;
+    color:powderblue;
+    border: double 3px darkgray;
+    padding: 1px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.detalle_obras{
+    font-size: 24px;
+    text-decoration: underline;
+    position: relative;
+    color:whitesmoke;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: 'Old Standard TT', serif;
+}
+.obra{ 
+    margin: 20px;
+    border: solid 2px white;
+    display: flex;
+    align-items: center; 
+    flex-direction: row;
+}
+
+@media (max-width: 580px) {
+    .obra{
+        flex-direction: column;
+    }
+}
+
+.nombre_obra{
+    display: flex;
+    align-items:start;
+  
+}
+ 
+.div{
+
+    margin: 100px;
+    width: 100%;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 500px 50px 150px;
+    grid-template-areas: 
+        "div1 div2"
+        "div3 div3"
+        "div4 div4";
+    column-gap: 40 px;
+    row-gap: 25px;  
+}
+
+@media (max-width: 580px){
+    .div{
+        grid-template-columns:100%;
+        grid-template-rows: 500px 500px 100px 200px;
+        grid-template-areas: 
+        "div1"
+        "div2"
+        "div3"
+        "div4";
+         height: 100%;   
+       }
+}
+.div1{
+    grid-area: div1;   
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.div2{
+    grid-area: div2;      
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.div3{
+    grid-area: div3;       
+}
+.div4{
+    grid-area: div4;        
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.foto_vertical{
+    margin: 55px;
+    max-height: 90%;   
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black;
+}
+
+
+/* Clases de Trab_univ */
+
+
+.carrera{
+    font-family: 'Roboto', sans-serif;
+    color:whitesmoke;   
+    font-size: 40px;
+    padding: 10px;
+    margin: 5 px;
+    text-align: center;
+}
+
+.margenes_fotos{  
+    margin-top: 20px;   
+}
+      
+.zoom{
+    transition:transform .5s;
+}
+      
+.zoom:hover {
+    transform: scale(1.5);
+}
+
+@media (max-width: 580px){
+    .zoom{
+        transition: none;
+        }
+    .zoom:hover{
+        transform: none;
+    }
+}
+
+.main_universit{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 40px;  
+    align-items: center;
+    margin-right: 10px;      
+}
+
+ 
+
+            
+/* Clases hoja Contacto */
+
+.borde-form{
+    
+    justify-content: center;
+    color: whitesmoke;
+}    
+
+
+.contacto_2{
+   font-family: 'Inter', sans-serif;
+    color:whitesmoke;   
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    text-align: center;
+}
+
+.borde-formulario{
+    margin:100px;
+    border: 1px solid white ;
+   
+}
+
+@media (max-width:580px){
+   .borde-formulario{
+    margin: 20px;
+   }
+}
+   
+.inquietud {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color:whitesmoke; 
+    text-align: center;
+   }
+
+

@@ -1,0 +1,7 @@
+@mixin formato_base($fuente , $tamano-fuente, $padding-st, $margen, $colorr){
+    font-family: $fuente;
+    font-size: $tamano-fuente;
+    padding: $padding-st;
+    margin: $margen;
+    color: $colorr;
+}

@@ -1,0 +1,56 @@
+.acerca_2 {
+    text-align: center;
+    @include formato_base (nth($letras,4),40px , 10px,30px, $color-letras)
+}
+.acerca_3 {
+     text-align: left;
+    @include formato_base (nth($letras,2),$tamano_20 , 0px,$tamano_20 0px $tamano_20 0px , $color-letras)
+}
+
+.cont2{
+    overflow: hidden;
+    border-radius: 10% 50%;
+    box-shadow: 5px 8px 12px black  ;
+    margin: 10px;  
+    justify-content: center;
+    align-items: center;
+    margin: 5px
+}
+
+.margen_acerca{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ .frase{
+    text-align:left;
+    @include formato_base(nth($letras,1),25px, 0px, 5px, $color-letras)
+}
+
+.mision{
+    @include formato_base(nth($letras,4),50px, 0px, 0px, $color-letras)
+}
+
+.texto-mision{
+       @include formato_base(nth($letras,5),$tamano_15, 0px, 0px, $color-letras)
+}
+
+.margen-inferior{
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+
+.borde-bajo{
+    border-bottom: 0.20px solid black;
+}
+
+.margen-inferior2{
+    border-bottom: 1px solid black;
+}
+.centrar-mensaje{
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+

@@ -1,0 +1,380 @@
+footer ul {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 4px;
+  margin-right: 12px;
+  align-items: flex-start;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  border: none;
+}
+nav ul li a:hover {
+  background-color: lightgray;
+}
+nav ul li {
+  list-style: none;
+  color: green;
+  padding: 5px;
+  font-weight: 600;
+}
+
+.tamano-logo {
+  width: 80px;
+  height: 80px;
+}
+
+.pepe {
+  color: black;
+  background-color: rgb(141, 165, 141);
+  padding: 5px;
+}
+
+body {
+  background: #bdc3c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.margen_arriba {
+  margin-top: 150px;
+}
+@media (max-width: 580px) {
+  .margen_arriba {
+    margin-top: 30px;
+  }
+}
+
+.encabezado_inicio {
+  text-align: center;
+  font-family: cursive;
+  font-size: 25px;
+  padding: 5px;
+  margin: 150px 5px 50px 5px;
+  color: whitesmoke;
+}
+
+.margen_arriba {
+  margin-top: 150px;
+}
+
+@media (max-width: 580px) {
+  .margen_arriba {
+    margin-top: 30px;
+  }
+}
+header {
+  border-bottom: white 1px solid;
+}
+
+.nuestro_serv {
+  bottom: 10px;
+  text-align: center;
+  font-family: Lucida Sans;
+  font-size: 25px;
+  padding: 15px;
+  margin: 30px;
+  color: whitesmoke;
+}
+
+.h3_tamano {
+  font-family: Lucida Sans;
+  font-size: 18px;
+  padding: 15px;
+  margin: 3opx;
+  color: whitesmoke;
+}
+
+.margen_superior {
+  margin-top: 30px;
+}
+
+.tipo_lista {
+  list-style: square;
+  font-style: italic;
+  font-family: Verdana;
+  font-size: 30px;
+  padding: 10px;
+  margin: 50px 0px 0px 70px;
+  color: whitesmoke;
+}
+
+.margen-index {
+  margin: 10px;
+}
+
+.margen-fotos {
+  margin: 15px;
+}
+
+.maximo-margen {
+  max-width: 90%;
+}
+
+.mensaje {
+  text-align: center;
+  font-family: Lucida Sans;
+  font-size: 20px;
+  padding: 5px;
+  margin: 20px 0px 20px 0px;
+  color: whitesmoke;
+}
+
+footer {
+  border-top: 1px solid white;
+}
+footer ul {
+  list-style: none;
+}
+
+.derechos {
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 5;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.acerca_2 {
+  text-align: center;
+  font-family: "Lato";
+  font-size: 40px;
+  padding: 10px;
+  margin: 30px;
+  color: whitesmoke;
+}
+
+.acerca_3 {
+  text-align: left;
+  font-family: Lucida Sans;
+  font-size: 20px;
+  padding: 0px;
+  margin: 20px 0px 20px 0px;
+  color: whitesmoke;
+}
+
+.cont2 {
+  overflow: hidden;
+  border-radius: 10% 50%;
+  box-shadow: 5px 8px 12px black;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.margen_acerca {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.frase {
+  text-align: left;
+  font-family: cursive;
+  font-size: 25px;
+  padding: 0px;
+  margin: 5px;
+  color: whitesmoke;
+}
+
+.mision {
+  font-family: "Lato";
+  font-size: 50px;
+  padding: 0px;
+  margin: 0px;
+  color: whitesmoke;
+}
+
+.texto-mision {
+  font-family: "Inter";
+  font-size: 15px;
+  padding: 0px;
+  margin: 0px;
+  color: whitesmoke;
+}
+
+.margen-inferior {
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.borde-bajo {
+  border-bottom: 0.2px solid black;
+}
+
+.margen-inferior2 {
+  border-bottom: 1px solid black;
+}
+
+.centrar-mensaje {
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.carrera {
+  font-family: "Roboto", sans-serif;
+  color: whitesmoke;
+  font-size: 40px;
+  padding: 10px;
+  margin: 5 px;
+  text-align: center;
+}
+
+.margenes_fotos {
+  margin-top: 20px;
+}
+
+.zoom {
+  transition: transform 2.5s;
+}
+.zoom:hover {
+  transform: scale(1.5);
+}
+@media (max-width: 580px) {
+  .zoom {
+    transition: none;
+  }
+  .zoom:hover {
+    transform: none;
+  }
+}
+
+.parrafos_descr {
+  border: double 3px whitesmoke;
+  font-family: "Lato";
+  font-size: 14px;
+  padding: 5px;
+  margin: 5px;
+  color: whitesmoke;
+}
+
+.detalle_obras {
+  text-decoration: underline;
+  position: relative;
+  font-family: "Old Standard TT";
+  font-size: 24px;
+  padding: 0px;
+  margin: 30px 0px 0px 30px;
+  color: whitesmoke;
+}
+
+.obra {
+  margin: 20px;
+  flex-direction: row;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 580px) {
+  .obra {
+    flex-direction: column;
+  }
+}
+
+.nombre_obra {
+  display: flex;
+  align-items: start;
+}
+
+.div {
+  margin: 100px;
+  width: 100%;
+  height: 800px;
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 500px 50px 150px;
+  grid-template-areas: "div1 div2" "div3 div3" "div4 div4";
+  column-gap: 40 px;
+  row-gap: 25px;
+}
+@media (max-width: 580px) {
+  .div {
+    grid-template-columns: 100%;
+    grid-template-rows: 500px 500px 100px 200px;
+    grid-template-areas: "div1" "div2" "div3" "div4";
+    height: 100%;
+  }
+}
+
+.div1 {
+  grid-area: div1;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.div2 {
+  grid-area: div2;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.div3 {
+  grid-area: div3;
+}
+
+.div4 {
+  grid-area: div4;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.foto_vertical {
+  margin: 55px;
+  max-height: 90%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 5px 8px 12px black;
+}
+
+.borde-form {
+  justify-content: center;
+  color: whitesmoke;
+}
+
+.contacto_2 {
+  font-family: "Inter", sans-serif;
+  color: whitesmoke;
+  font-size: 25px;
+  padding: 10px;
+  text-align: center;
+  text-align: center;
+}
+
+.borde-formulario {
+  margin: 100px;
+  border: 1px solid white;
+}
+@media (max-width: 580px) {
+  .borde-formulario {
+    margin: 20px;
+  }
+}
+
+.inquietud {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

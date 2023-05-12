@@ -1,0 +1,69 @@
+.margen_arriba{
+    margin-top: 150px;
+    @media (max-width: 580px) {
+        margin-top: 30px;}
+    }
+
+    .encabezado_inicio{
+        text-align: center;
+        @include formato_base (nth($letras,1),25px,5px,150px 5px 50px 5px, $color-letras);
+    }
+    .margen_arriba{
+        margin-top: 150px;
+    }
+    
+    
+    @media (max-width: 580px) {
+        .margen_arriba{
+          margin-top: 30px;
+        }
+           }
+
+    header {
+     border-bottom: white 1px solid;
+          }
+          
+    
+    
+    .nuestro_serv{
+        bottom: 10px;
+               text-align: center;
+             @include formato_base (nth($letras,2),25px, $tamano_15,30px, $color-letras)
+    }
+    
+    .h3_tamano{
+              @include formato_base (nth($letras,2),18px,$tamano_15,3opx,$color-letras)
+
+    }
+    
+    .margen_superior{
+        margin-top: 30px;
+    }
+    
+    
+    
+    .tipo_lista{
+        list-style: square;
+        font-style: italic;
+        @include formato_base (nth($letras,3),30px,10px, 50px 0px 0px 70px,$color-letras);
+    }
+    
+    .margen-index{
+        margin:10px;
+        
+    
+    }
+    .margen-fotos{
+        margin:15px;
+    }
+    
+    .maximo-margen{
+        max-width: 90%;
+    }
+    
+    
+      .mensaje{
+        text-align:center;
+        @include formato_base (nth($letras,2),20px,5px,20px 0px 20px 0px,$color-letras);
+
+    }  
