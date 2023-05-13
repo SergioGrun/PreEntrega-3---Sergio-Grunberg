@@ -45,12 +45,13 @@
     .tipo_lista{
         list-style: square;
         font-style: italic;
-        @include formato_base (nth($letras,3),30px,10px, 50px 0px 0px 70px,$color-letras);
+        @include formato_base (nth($letras,3),14px,10px, 50px 0px 0px 70px,$color-letras);
+        justify-content: center;
     }
     
     .margen-index{
         margin:10px;
-        
+        align-items: center;
     
     }
     .margen-fotos{
@@ -65,5 +66,7 @@
       .mensaje{
         text-align:center;
         @include formato_base (nth($letras,2),20px,5px,20px 0px 20px 0px,$color-letras);
+     
 
     }  
+

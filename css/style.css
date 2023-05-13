@@ -107,14 +107,16 @@ header {
   list-style: square;
   font-style: italic;
   font-family: Verdana;
-  font-size: 30px;
+  font-size: 14px;
   padding: 10px;
   margin: 50px 0px 0px 70px;
   color: whitesmoke;
+  justify-content: center;
 }
 
 .margen-index {
   margin: 10px;
+  align-items: center;
 }
 
 .margen-fotos {
