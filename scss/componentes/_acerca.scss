@@ -24,7 +24,7 @@
 }
  .frase{
     text-align:left;
-    @include formato_base(nth($letras,1),25px, 0px, 5px, $color-letras)
+    @include formato_base(nth($letras,1),$tamano_20, 0px, $tamano_20 5px 5px 5px, $color-letras)
 }
 
 .mision{

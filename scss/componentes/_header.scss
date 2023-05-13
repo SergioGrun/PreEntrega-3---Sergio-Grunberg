@@ -29,6 +29,10 @@ nav {
       color: green;
       padding: 5px;
       font-weight: 600;
+
+      transition:all 2.5s;
+    &:hover{    transform: scale(1.2);
+    }
     }
     
    
@@ -45,3 +49,10 @@ nav {
     padding: calc($tamano_15/3);
   }
   
+.boton{
+  transition: all 2.5s;
+    &:hover{    transform: scale(1.1);
+  
+      background-color: lightgray;
+    }
+}
